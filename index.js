@@ -11,31 +11,32 @@
  */
 function length(string) {
     // YOUR CODE BELOW HERE //
-    
+    console.log(string.length)
 
     // YOUR CODE ABOVE HERE //
 }
-
+length("hello who")
 /**
  * Given an input String, return a new String forced to lowercase.
  */
 function toLowerCase(string) {
     // YOUR CODE BELOW HERE //
- 
+ console.log(string.toLowerCase)
 
     // YOUR CODE ABOVE HERE //
+    toLowerCase('I AM HAPPY')
 }
 
 /**
  * Given an input String, return a new String forced to uppercase.
  */
-function toUpperCase(string) {
+function toUpperCase(string {
     // YOUR CODE BELOW HERE //
-
+console.log(string.toUpperCase()]
 
     // YOUR CODE ABOVE HERE //
 }
-
+toUpperCase('i am happy')
 /**
  * Given an input String, return a new String forced to dash-case.
  *
@@ -51,11 +52,12 @@ function toUpperCase(string) {
  */
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
+console.log(string.toDashCase)
 
        
     // YOUR CODE ABOVE HERE //
 }
-
+toDashCase('thursday is midterms')
 /**
  * Given an input String and a single character, return true if the String
  * begins with the character, false otherwise. The Function is case insensitive.
@@ -70,11 +72,14 @@ function toDashCase(string) {
  */
 function beginsWith(string, char) {
     // YOUR CODE BELOW HERE //
-       
+       if(string[0] === char){
+         console.log() true 
+       } else {
+         return false 
        
     // YOUR CODE ABOVE HERE //
 }
-
+beginsWith('classy','c')
 /**
  * Given an input String and a single character, return true if the String
  * ends with the character, false otherwise. The Function is case insensitive.
@@ -89,11 +94,14 @@ function beginsWith(string, char) {
  */
 function endsWith(string, char) {
     // YOUR CODE BELOW HERE //
-        
+        if(string[0] === char){
+         console.log() false
+       } else {
+         return true
 
     // YOUR CODE ABOVE HERE //
 }
-
+endsWith('nope','e')
 /**
  * Given two input Strings, return the Strings concatenated into one.
  *
@@ -101,11 +109,11 @@ function endsWith(string, char) {
  */
 function concat(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
+console.log(stringOne + stringTwo)
 
     // YOUR CODE ABOVE HERE //
 }
-
+concat('please', 'thank you')
 
 /**
  * Given two Strings, return the longest of the two.
@@ -132,11 +140,13 @@ function longest(stringOne, stringTwo) {
  */
 function sortAscending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
+var points = [40, 100, 1, 5, 25, 10];
 
 
     // YOUR CODE ABOVE HERE //
 }
 
+points.sort(function(p, q){return p-q});
 
 /**
  * Given two Strings, return 1 if the first is lower in alphabetical order than
@@ -147,7 +157,8 @@ function sortAscending(stringOne, stringTwo) {
  */
 function sortDescending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
+var points = [40, 100, 1, 5, 25, 10];
 
     // YOUR CODE ABOVE HERE //
 }
+points.sort(function(p, q){return q-p});
